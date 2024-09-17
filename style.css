@@ -1,0 +1,23 @@
+@import "https://js.arcgis.com/4.30/@arcgis/core/assets/esri/themes/light/main.css";
+
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#instruction {
+  z-index: 99;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  padding: 5px;
+  margin-left: -175px;
+  height: 30px;
+  width: 355px;
+  background: rgba(25, 25, 25, 0.8);
+  color: white;
+}
