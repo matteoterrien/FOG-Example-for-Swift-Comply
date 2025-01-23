@@ -1,6 +1,10 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+
 function Backend() {
-  const apiKey = "e99df8c3bb4382bef59a61dbd7efcbac";
   const apiUrl = "/api/v1/establishments/";
+  const apiKey = process.env.API_KEY;
 
   const requestOptions = {
     method: "GET",
